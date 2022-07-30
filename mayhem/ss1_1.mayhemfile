@@ -1,0 +1,7 @@
+project: RustySecrets
+target: ss1-1
+
+cmds:
+  - cmd: /ss1_1
+  - cmd: /ss1_1_no_inst @@
+    libfuzzer: false
